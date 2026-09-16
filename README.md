@@ -183,7 +183,7 @@ docker build -t spring-boot-ci-cd .
 
 Run the Docker container:
 
-docker run -d -p 8080:8080 spring-boot-ci-cd
+docker run -d -p 8081:8081 spring-boot-ci-cd
 
 Check running containers:
 
@@ -191,7 +191,7 @@ docker ps
 
 The application can be accessed on:
 
-http://localhost:8080
+http://localhost:8081
 
 ## Trigger the CI/CD Pipeline
 
